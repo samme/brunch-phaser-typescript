@@ -1,4 +1,4 @@
-Brunch with Phaser 3
+Brunch with Phaser 3 (TypeScript)
 ====================
 
 A [Brunch](http://brunch.io) skeleton for making games with [Phaser 3](http://phaser.io/phaser3) and [TypeScript][3]. ([Why Brunch?](http://brunch.io/docs/why-brunch))
@@ -41,11 +41,7 @@ Add NPM packages
 
     npm install -S <package-name>
 
-and in your code:
-
-```javascript
-require('package-name');
-```
+and then [import][1] as appropriate in your code.
 
 Add other libraries
 -------------------
@@ -69,4 +65,5 @@ npm install -D plugin-name
 - [uglify-js-brunch](https://www.npmjs.com/package/uglify-js-brunch#usage)
   - [minify options](https://www.npmjs.com/package/uglify-js#minify-options)
 
+[1]: https://www.typescriptlang.org/docs/handbook/modules.html
 [3]: https://www.typescriptlang.org
