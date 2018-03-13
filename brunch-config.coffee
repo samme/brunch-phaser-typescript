@@ -17,9 +17,5 @@ module.exports =
       'node_modules/phaser/dist/phaser.js'
       # 'node_modules/phaser/dist/phaser-arcade-physics.js'
     ]
-  plugins:
-    # https://github.com/babel/babel-brunch#configuration
-    babel:
-      ignore: ['node_modules/**', 'vendor/**']
   server:
     noPushState: on
