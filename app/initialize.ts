@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+declare const Phaser;
 
 import defaultScene from './scenes/default';
 
