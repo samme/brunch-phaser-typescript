@@ -1,4 +1,13 @@
-declare const Phaser;
+declare global {
+  namespace Phaser {
+    let AUTO: number;
+    let CANVAS: number;
+    let WEBGL: number;
+    class Game {
+      constructor(config: any)
+    }
+  }
+}
 
 import defaultScene from './scenes/default';
 
