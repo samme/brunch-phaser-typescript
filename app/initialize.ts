@@ -1,20 +1,7 @@
-declare global {
-  namespace Phaser {
-    let AUTO: number;
-    let CANVAS: number;
-    let WEBGL: number;
-    class Game {
-      constructor(config: any)
-    }
-  }
-}
-
 import defaultScene from './scenes/default';
 
-const game = new Phaser.Game({
-
+const game = new Phaser.Game(<any>{ // <any> works around the missing GameConfig.physics definition
   // See <https://github.com/photonstorm/phaser/blob/master/src/boot/Config.js>
-
   width: 800,
   height: 600,
   // zoom: 1,

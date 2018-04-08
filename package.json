@@ -18,6 +18,7 @@
     "clean-css-brunch": "^2",
     "css-brunch": "^2",
     "javascript-brunch": "^2",
+    "phaser3-docs": "git+https://github.com/photonstorm/phaser3-docs.git",
     "typescript-brunch": "^2.3.0",
     "uglify-js-brunch": "^2"
   }

@@ -5,8 +5,6 @@ A [Brunch](http://brunch.io) skeleton for making games with [Phaser 3](http://ph
 
     brunch new <project> -s samme/brunch-phaser-typescript
 
-There are no Phaser 3 type definitions yet.
-
 Get started
 -----------
 
