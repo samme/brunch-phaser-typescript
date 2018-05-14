@@ -1,6 +1,6 @@
 import defaultScene from './scenes/default';
 
-const game = new Phaser.Game(<any>{ // <any> works around the missing GameConfig.physics definition
+const game = new Phaser.Game({
   // See <https://github.com/photonstorm/phaser/blob/master/src/boot/Config.js>
   width: 800,
   height: 600,
@@ -11,7 +11,7 @@ const game = new Phaser.Game(<any>{ // <any> works around the missing GameConfig
   // canvas: null,
   // canvasStyle: null,
   // seed: null,
-  title: '☕️ Brunch with Phaser', // 'My Phaser 3 Game'
+  title: '☕️ Brunch with Phaser and TypeScript', // 'My Phaser 3 Game'
   url: 'https://github.com/samme/brunch-phaser-typescript',
   version: '0.0.1',
   // input: {
@@ -32,6 +32,7 @@ const game = new Phaser.Game(<any>{ // <any> works around the missing GameConfig
   //   target: 60,
   //   forceSetTimeout: false,
   // },
+  // antialias: false,
   // pixelArt: false,
   // transparent: false,
   // clearBeforeRender: true,
@@ -39,7 +40,7 @@ const game = new Phaser.Game(<any>{ // <any> works around the missing GameConfig
   loader: {
     // baseURL: '',
     path: 'assets/',
-    maxParallelDownloads: 6,
+    // maxParallelDownloads: 32,
     // crossOrigin: 'anonymous',
     // timeout: 0
   },
