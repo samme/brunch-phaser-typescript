@@ -17,5 +17,8 @@ module.exports =
       'node_modules/phaser/dist/phaser.js'
       # 'node_modules/phaser/dist/phaser-arcade-physics.js'
     ]
+  plugins:
+    brunchTypescript:
+      ignoreErrors: [2503] # eg Cannot find namespace 'Phaser'
   server:
     noPushState: on

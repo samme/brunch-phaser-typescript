@@ -1,4 +1,4 @@
-import defaultScene from './scenes/default';
+import DefaultScene from './scenes/default';
 
 const game = new Phaser.Game({
   // See <https://github.com/photonstorm/phaser/blob/master/src/boot/Config.js>
@@ -52,6 +52,6 @@ const game = new Phaser.Game({
       }
     }
   },
-  scene: defaultScene,
+  scene: DefaultScene,
 
 });
