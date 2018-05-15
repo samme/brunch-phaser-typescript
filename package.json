@@ -7,7 +7,8 @@
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "phaser": "^3.7.1"
