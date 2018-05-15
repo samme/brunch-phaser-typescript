@@ -7,7 +7,7 @@ export default {
   preload: function () {
     this.load.image('sky', 'space3.png');
     this.load.image('logo', 'phaser3-logo.png');
-    this.progressBar = this.add.graphics(0, 0);
+    this.progressBar = this.add.graphics();
     this.load.on('progress', this.onLoadProgress, this);
     this.load.on('complete', this.onLoadComplete, this);
   },
