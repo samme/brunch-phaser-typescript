@@ -22,9 +22,9 @@ Get started
 Phaser
 ------
 
-Phaser is managed through [npm](https://docs.npmjs.com/cli/npm).
+Phaser is managed through [npm](https://docs.npmjs.com/cli/npm). The latest release is installed when you create a new project.
 
-    npm ls --production
+    npm view phaser version
 
 Update with:
 
@@ -34,34 +34,26 @@ Update with:
 
 See the `npm.static` entry in [brunch-config](./brunch-config.coffee).
 
-Add NPM packages
-----------------
+Typescript
+----------
+
+[Phaser 3's definitions][2] are still evolving, and there may be errors.
+
+Add packages
+------------
 
     npm install -S <package-name>
 
 and then [import][1] as appropriate in your code.
 
-Add other libraries
--------------------
+Configuration
+-------------
 
-Add the unminified script to [vendor](vendor).
-
-Plugins
--------
-
-```shell
-# List
-npm list --dev --depth=0
-
-# Add (http://brunch.io/plugins)
-npm install -D plugin-name
-```
-
-### Settings
-
+- [brunch](http://brunch.io/docs/config)
 - [typescript-brunch](https://www.npmjs.com/package/typescript-brunch#brunch-config)
 - [uglify-js-brunch](https://www.npmjs.com/package/uglify-js-brunch#usage)
   - [minify options](https://www.npmjs.com/package/uglify-js#minify-options)
 
 [1]: https://www.typescriptlang.org/docs/handbook/modules.html
+[2]: https://github.com/photonstorm/phaser3-docs/tree/master/typescript
 [3]: https://www.typescriptlang.org
