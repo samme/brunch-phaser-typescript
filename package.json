@@ -11,11 +11,11 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "phaser": "^3.8.0"
+    "phaser": "^3.13.0"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
-    "brunch": "^2",
+    "brunch": "^2.10.17",
     "clean-css-brunch": "^2",
     "css-brunch": "^2",
     "javascript-brunch": "^2",
